@@ -26,7 +26,9 @@ const About = () => (
       </div>
     </div>
     <ProjectForm />
-    <img className="footer" src="https://iili.io/J5LuC79.png" alt="Footer" />
+    <div>
+      <img className="footer" src="https://iili.io/J5LuC79.png" alt="Footer" />
+    </div>
   </div>
 )
 

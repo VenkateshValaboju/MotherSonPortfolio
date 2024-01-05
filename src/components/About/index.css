@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:regular,bold,italic&subset=latin,latin-ext');
 
 .box1 {
-  width: 486px;
+  width: 48%;
   text-align: left;
   margin-left: 8vw;
   margin-top: 55px;
@@ -94,6 +94,7 @@
   border-radius: 2px;
   margin-left: 230px;
   margin-top: 7px;
+  color: #ffffff;
 }
 
 .formBox {
@@ -159,8 +160,6 @@ textArea {
 .box2 {
   margin-bottom: 100px;
   margin-top: 100px;
-  position: fixed center;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -178,5 +177,271 @@ textArea {
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 45%;
+  }
+}
+
+@media screen and (max-width: 1022px) {
+  .bg {
+    background-image: url('https://iili.io/J54qjGj.md.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 55%;
+  }
+
+  .greetings {
+    font-family: 'Playfair Display';
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    height: 90px;
+  }
+  .box1 {
+    width: 45%;
+  }
+
+  .body {
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: #828282;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  .projectsButton {
+    width: 83px;
+    height: 35px;
+    padding: 8px, 24px, 8px, 24px;
+    margin-right: 8px;
+    border-radius: 8px;
+    background: #fdc435;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #25282b;
+    margin-top: 12px;
+    border-style: none;
+  }
+
+  .LinkedInButton {
+    width: 83px;
+    height: 35px;
+    padding: 8px, 24px, 8px, 24px;
+    border-radius: 8px;
+    border: 2px;
+    border: 2px solid #25282b;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #25282b;
+  }
+
+  input {
+    width: 350px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px;
+    background: linear-gradient(0deg, #ffffff, #ffffff),
+      linear-gradient(0deg, #e8ecf4, #e8ecf4);
+    border: 1px solid #e8ecf4;
+    font-size: large;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    padding-left: 5px;
+  }
+
+  textArea {
+    width: 350px;
+    height: 160px;
+    border-radius: 8px;
+    border: 1px;
+    background: linear-gradient(0deg, #ffffff, #ffffff),
+      linear-gradient(0deg, #e8ecf4, #e8ecf4);
+    border: 1px solid #e8ecf4;
+    font-size: large;
+    font-family: 'Roboto';
+    margin-bottom: 19px;
+    padding: 5px;
+  }
+  .addBtn {
+    width: 75px;
+    height: 35px;
+    padding: 8px, 24px, 8px, 24px;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #25282b;
+    background-color: #fdc435;
+    margin-left: 0px;
+    border-style: none;
+  }
+
+  .formTitle {
+    width: 50%;
+    gap: 4px;
+    height: 34px;
+    font-family: Playfair Display;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: right;
+    margin-left: 150px;
+  }
+
+  .formBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  .box2 {
+    margin-top: 45px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bg {
+    background-image: url('https://iili.io/J54qjGj.md.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 55%;
+  }
+
+  .greetings {
+    font-family: 'Playfair Display';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    height: 90px;
+  }
+  .box1 {
+    width: 60%;
+  }
+  .formBox {
+    max-width: 100vw;
+  }
+  .underline {
+    margin-left: 125px;
+    width: 55px;
+  }
+  .body {
+    font-family: 'Nunito';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: #828282;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  .projectsButton {
+    width: 83px;
+    height: 35px;
+    padding: 8px, 24px, 8px, 24px;
+    margin-right: 8px;
+    border-radius: 8px;
+    background: #fdc435;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #25282b;
+    margin-top: 12px;
+    border-style: none;
+  }
+
+  .LinkedInButton {
+    width: 83px;
+    height: 35px;
+    padding: 8px, 24px, 8px, 24px;
+    border-radius: 8px;
+    border: 2px;
+    border: 2px solid #25282b;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #25282b;
+  }
+
+  input {
+    width: 243px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px;
+    background: linear-gradient(0deg, #ffffff, #ffffff),
+      linear-gradient(0deg, #e8ecf4, #e8ecf4);
+    border: 1px solid #e8ecf4;
+    font-size: large;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    padding-left: 5px;
+  }
+
+  textArea {
+    width: 243px;
+    height: 160px;
+    border-radius: 8px;
+    border: 1px;
+    background: linear-gradient(0deg, #ffffff, #ffffff),
+      linear-gradient(0deg, #e8ecf4, #e8ecf4);
+    border: 1px solid #e8ecf4;
+    font-size: large;
+    font-family: 'Roboto';
+    margin-bottom: 19px;
+    padding: 5px;
+  }
+  .addBtn {
+    width: 75px;
+    height: 35px;
+    padding: 8px, 24px, 8px, 24px;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #25282b;
+    background-color: #fdc435;
+    margin-left: 0px;
+    border-style: none;
+  }
+
+  .formTitle {
+    width: 50%;
+    gap: 4px;
+    height: 34px;
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: right;
+    margin-left: 55px;
+  }
+
+  .formBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  .box2 {
+    margin-top: 45px;
   }
 }

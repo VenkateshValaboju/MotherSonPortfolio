@@ -26,6 +26,7 @@ const ProjectForm = () => {
           <div className="box2">
             <div className="formBox">
               <h2 className="formTitle">Add Project</h2>
+              <div className="underline">--</div>
               <form onSubmit={projectSubmitted}>
                 <label htmlFor="projectName">Project Name</label>
                 <br />
@@ -48,6 +49,7 @@ const ProjectForm = () => {
                   type="text"
                   onChange={e => setProjectDesc(e.target.value)}
                 />
+                <br />
                 <button type="submit" className="addBtn">
                   Add
                 </button>
